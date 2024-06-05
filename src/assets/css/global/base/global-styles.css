@@ -135,3 +135,17 @@ a:hover {
     display: none;
   }
 }
+.creator {
+  margin-bottom: 0; /* Remove bottom margin */
+  padding-bottom: 0; /* Remove bottom padding */
+}
+
+.first-creator {
+  margin-bottom: 0 !important; /* Ensure bottom margin is removed */
+  padding-bottom: 0 !important; /* Ensure bottom padding is removed */
+}
+
+.second-creator {
+  margin-top: 0 !important; /* Ensure top margin is removed */
+  padding-top: 0 !important; /* Ensure top padding is removed */
+}
