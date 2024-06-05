@@ -75,23 +75,23 @@ export const imageShortcode = async (
     height: lowsrc.height,
     alt,
     loading,
-    decoding: 'async'
+    decoding: loading === 'eager' ? 'sync' : 'async'
   });
 
   const imageElement = caption
     ? `<figure slot="image" class="flow ${className ? `${className}` : ''}">
-				<picture>
-					${imageSources}
-					<img
-					${imgageAttributes}>
-				</picture>
-				<figcaption>${caption}</figcaption>
-			</figure>`
+        <picture>
+          ${imageSources}
+          <img
+          ${imgageAttributes}>
+        </picture>
+        <figcaption>${caption}</figcaption>
+      </figure>`
     : `<picture slot="image" class="flow ${className ? `${className}` : ''}">
-				${imageSources}
-				<img
-				${imgageAttributes}>
-			</picture>`;
+        ${imageSources}
+        <img
+        ${imgageAttributes}>
+      </picture>`;
 
   return htmlmin.minify(imageElement, {collapseWhitespace: true});
 };

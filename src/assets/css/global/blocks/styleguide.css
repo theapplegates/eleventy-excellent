@@ -7,6 +7,10 @@
   font-size: var(--size-step-min-2);
 }
 
+.styleguide li p:has(code) {
+  line-height: var(--leading-flat);
+}
+
 .styleguide section {
   --region-space-bottom: var(--space-l-xl);
   --region-space-top: var(--space-l-xl);
@@ -33,7 +37,7 @@
   display: grid;
   grid-gap: var(--gap);
   /* min() with 100% prevents overflow
-		in extra narrow spaces */
+    in extra narrow spaces */
   grid-template-columns: repeat(auto-fit, minmax(min(100%, var(--min)), 1fr));
 }
 
