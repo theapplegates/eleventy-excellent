@@ -14,7 +14,7 @@
     "screenshots": "node ./src/_config/setup/generate-screenshots.js",
     "dev:clean": "rimraf src/assets/og-images",
     "dev:11ty": "cross-env ELEVENTY_ENV=development eleventy --serve --watch",
-    "build:11ty": "cross-env ELEVENTY_ENV=production eleventy",
+    "build:11ty": "cross-env ELEVENTY_ENV=production eleventy && npx -y pagefind --site dist",
     "start": "run-p dev:*",
     "build": "run-s clean build:*"
   },
