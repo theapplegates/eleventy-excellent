@@ -5,6 +5,8 @@ date: 2024-06-03
 ---
 {% image "./src/assets/images/blog/Pyramid-title_gonkjb.jpg", "Opening title screen", "" %}
 
+<img src="/.netlify/images?url=/assets/images/blog/303312-2.jpg">
+
 I let AI write/improve my words. Here is what it wrote:
 When I was just ten years old, I found myself under the dazzling lights of a game show set. It's a memory that brings a smile to my face every time I think about it. The adventure began when my mother was auditioning for the $20,000 Pyramid. She had already breezed through three interviews and demo games, and was on the brink of being selected.
 That's when the unexpected happened. The producers pulled her aside and presented an intriguing offer. Instead of the usual pairing with a celebrity, they invited her to join a new show called the [Junior Partner Pyramid](https://en.wikipedia.org/wiki/Pyramid_(game_show)). In this twist on the classic game, an adult would partner with their child. Without hesitation, my mom agreed, and that's when my "training" began.
