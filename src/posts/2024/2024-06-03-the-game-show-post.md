@@ -5,7 +5,7 @@ date: 2024-06-03
 ---
 {% image "./src/assets/images/blog/Pyramid-title_gonkjb.jpg", "Opening title screen", "" %}
 
-<img src="/.netlify/images?url=/assets/images/blog/303312-2.jpg">
+<img src="/.netlify/images?url=src/assets/images/blog/303312-2.jpg">
 
 I let AI write/improve my words. Here is what it wrote:
 When I was just ten years old, I found myself under the dazzling lights of a game show set. It's a memory that brings a smile to my face every time I think about it. The adventure began when my mother was auditioning for the $20,000 Pyramid. She had already breezed through three interviews and demo games, and was on the brink of being selected.
