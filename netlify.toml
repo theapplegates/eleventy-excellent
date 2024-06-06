@@ -3,27 +3,6 @@ package = "netlify-plugin-cache"
 [plugins.inputs]
 paths = [".cache"]
 
-[[headers]]
-for = "/*"
-[headers.values]
-Content-Security-Policy = """
-upgrade-insecure-requests;
-block-all-mixed-content;
-default-src 'none';
-script-src 'self' 'sha256-83249e93772f279c84d0f37fd708cd51f3aad6673da604de3f70894bab2b2074';
-style-src 'self' 'sha256-9f1dd1a7b9c51b46f9efd4a0767d578b3dbb30c21f804896783c4626045b2e96'; 
-img-src 'self';
-connect-src 'self';
-font-src 'self';
-frame-ancestors 'none';
-base-uri 'self';
-form-action 'self';
-"""
-X-Content-Type-Options = "nosniff"
-X-Frame-Options = "DENY"
-X-XSS-Protection = "1; mode=block"
-Referrer-Policy = "strict-origin-when-cross-origin"
-Permissions-Policy = "autoplay=(), camera=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), publickey-credentials-get=()"
 
 
 [build]
