@@ -1,8 +1,8 @@
 {
-  "name": "eleventy-excellent",
+  "name": "paulapplegate",
   "version": "3.1.0",
   "description": "Eleventy starter built around the workflow suggested by Andy Bell's buildexcellentwebsit.es.",
-  "author": "Lene Saile",
+  "author": "Paul Applegate",
   "license": "ISC",
   "type": "module",
   "engines": {
