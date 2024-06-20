@@ -1,6 +1,6 @@
 {
-  "name": "paulapplegate",
-  "version": "3.1.0",
+  "name": "living life",
+  "version": "3.1.1",
   "description": "Eleventy starter built around the workflow suggested by Andy Bell's buildexcellentwebsit.es.",
   "author": "Paul Applegate",
   "license": "ISC",
@@ -14,14 +14,14 @@
     "screenshots": "node ./src/_config/setup/generate-screenshots.js",
     "dev:clean": "rimraf src/assets/og-images",
     "dev:11ty": "cross-env ELEVENTY_ENV=development eleventy --serve --watch",
-    "build:11ty": "cross-env ELEVENTY_ENV=production eleventy && npx -y pagefind --site dist",
+    "build:11ty": "cross-env ELEVENTY_ENV=production eleventy",
     "start": "run-p dev:*",
     "build": "run-s clean build:*"
   },
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/madrilene/eleventy-excellent.git"
+    "url": "https://github.com/theapplegates/eleventy-excellent.git"
   },
   "dependencies": {
     "@11ty/eleventy": "3.0.0-alpha.10",

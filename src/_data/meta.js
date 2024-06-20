@@ -15,7 +15,7 @@ export const creator = {
   name: 'Paul Applegate', // i.e. Lene Saile - creator's (developer) name.
   email: 'me@paulapplegate.com',
   website: 'https://paulapplegate.com',
-  social: 'https://mastodon.cloud/@mrapplegate'
+  social: 'https://front-end.social/'
 };
 export const pathToSvgLogo = 'src/assets/svg/misc/logo.svg'; // used for favicon generation
 export const themeColor = '#DD4462'; //  Manifest: defines the default theme color for the application
