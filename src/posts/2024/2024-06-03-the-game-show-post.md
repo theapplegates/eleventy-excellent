@@ -22,3 +22,8 @@ The day of the taping I was a nervous wreak. [Dick Clark](https://en.wikipedia.o
 
 A random picture of Venice, Italy.
 ![Beautiful Venice, Italy](https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit/dpr_auto/f_auto,q_auto/w_auto:breakpoints_200_1920_30_15/israel-ferrera-ewxZ27OmFrs-unsplash_xiwjm2.jpg)
+
+
+![The bird](https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit/dpr_auto/f_auto,q_auto/w_auto:breakpoints_200_1920_30_15/bob-brewer_ayzghl.jpg)
+
+![The white home](https://res.cloudinary.com/paulapplegate-com/image/upload/c_limit/dpr_auto/f_auto,q_auto/w_auto:breakpoints_200_1920_30_15/pawel-czerwinski_r4l442.jpg)
