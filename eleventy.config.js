@@ -9,7 +9,7 @@
  * @param {import("@11ty/eleventy/src/UserConfig")} eleventyConfig -
  * @returns {Object} -
  */
-
+import pluginWebc from "@11ty/eleventy-plugin-webc";
 // register dotenv for process.env.* variables to pickup
 import dotenv from 'dotenv';
 dotenv.config();
@@ -42,6 +42,7 @@ export default async function (eleventyConfig) {
   eleventyConfig.addCollection('tagList', tagList);
 
   // ---------------------  Plugins
+  
   eleventyConfig.addPlugin(plugins.htmlConfig);
   eleventyConfig.addPlugin(plugins.cssConfig);
   eleventyConfig.addPlugin(plugins.jsConfig);

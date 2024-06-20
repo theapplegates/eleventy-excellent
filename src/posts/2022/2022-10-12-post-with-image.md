@@ -8,6 +8,28 @@ alt: 'A picturesque valley showcasing majestic mountains and lush forests, creat
 credit: Lene took this photo.
 ---
 
+<unpic-img
+  webc:import="npm:@unpic/webc"
+  src="https://res.cloudinary.com/paulapplegate-com/image/upload/bob-brewer_ayzghl.jpg"
+  layout="constrained"
+  width="1920"
+  height="1224"
+  alt="A lovely white home" ></unpic-img>
+  <span style="font-size: 0.7em;">
+	Photo by <a href="https://unsplash.com/@pawel_czerwinski?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Pawel Czerwinski</a> on <a href="https://unsplash.com/photos/a-white-room-with-a-potted-plant-in-it-ULsUfp7hl-I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  </span>
+
+<unpic-img
+  webc:import="npm:@unpic/webc"
+  src="https://res.cloudinary.com/paulapplegate-com/image/upload/pawel-czerwinski_r4l442.jpg"
+  layout="constrained"
+  width="1920"
+  height="1280"
+  alt="A lovely white bird" ></unpic-img>
+<span style="font-size: 0.7em;">
+  Photo by <a href="https://unsplash.com/@pawel_czerwinski?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Pawel Czerwinski</a> on <a href="https://unsplash.com/photos/a-white-room-with-a-potted-plant-in-it-ULsUfp7hl-I?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+</span>
+
 This starter uses Eleventy's build-time image transformations.
 
 Find more info on https://www.11ty.dev/docs/plugins/image/ and edit settings in `config/shortcodes/image`.
