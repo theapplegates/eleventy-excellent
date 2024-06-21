@@ -43,15 +43,11 @@
     <!-- theme switch -->
     {% include 'partials/theme-switch.njk' %}
 
-<footer>
-      <aside class="creator first-creator">
-        <a class="cluster" href="{{ meta.creator.website }}">
-          Made with <span class="visually-hidden">love</span> <span>{% svg "misc/heart" %}</span> by {{ meta.creator.name }}
-        </a>
-      </aside>
-      <aside class="creator second-creator">
-        <p class="text-step-min-2 centered-text">
-          Designed by <a href="https://www.lenesaile.com" class="text-step-min-2">Lene Saile</a>, and greatly influenced by Andy Bell's legendary <a href="https://buildexcellentwebsit.es/" class="text-step-min-2">CSS skillset</a>.
-        </p>
-      </aside>
-    </footer>
+    <aside class="creator">
+      <a class="cluster" href="{{ meta.creator.website }}"
+        >Made with <span class="visually-hidden">love</span> <span>{% svg "misc/heart" %}</span> by
+        {{ meta.creator.name }}</a
+      >
+    </aside>
+  </div>
+</footer>
