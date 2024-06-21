@@ -1,3 +1,4 @@
+
 [[plugins]]
 package = "netlify-plugin-cache"
 [plugins.inputs]
@@ -16,3 +17,32 @@ Permissions-Policy = "autoplay=(), camera=(), gyroscope=(), magnetometer=(), mic
 [build]
 command = "npm run build"
 publish = "dist"
+NODE_ENV = "10.15.3"
+[dev]
+  command = "yarn run start"
+
+
+[[redirects]]
+  from = "/images/tiny/*"
+  to = "/.netlify/images/?w=20&fit=cover&url=/images/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/images/small/*"
+  to = "/.netlify/images/?w=500&fit=cover&url=/images/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/images/medium/*"
+  to = "/.netlify/images/?w=600&fit=cover&url=/images/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/images/large/*"
+  to = "/.netlify/images/?w=700&fit=cover&url=/images/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/images/original/*"
+  to = "/.netlify/images/?url=/images/:splat"
+  status = 200

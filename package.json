@@ -1,3 +1,4 @@
+
 {
   "name": "livinglife",
   "version": "3.1.1",
@@ -6,7 +7,7 @@
   "license": "ISC",
   "type": "module",
   "engines": {
-    "node": ">=20.x.x"
+    "node": ">=20.0.0"
   },
   "scripts": {
     "clean": "rimraf dist src/_includes/css src/_includes/scripts",
@@ -18,7 +19,12 @@
     "start": "run-p dev:*",
     "build": "run-s clean build:*"
   },
-  "keywords": [],
+  "keywords": [
+    "eleventy",
+    "starter",
+    "workflow",
+    "web-development"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/theapplegates/eleventy-excellent.git"
@@ -70,6 +76,8 @@
     "sharp": "^0.33.4",
     "sharp-ico": "^0.1.5",
     "slugify": "^1.6.5",
+    "sass": "^1.69.5",
+    "uglify-js": "^3.17.4",
     "svgo": "^3.2.0"
   }
 }

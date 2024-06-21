@@ -1,3 +1,4 @@
+
 # Node modules
 node_modules
 
@@ -5,6 +6,7 @@ node_modules
 dist
 src/_includes/css
 src/_includes/scripts
+yarn-error.log
 
 # cache
 .cache
