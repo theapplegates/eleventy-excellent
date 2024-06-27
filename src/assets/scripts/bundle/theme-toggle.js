@@ -20,6 +20,7 @@ window.onload = () => {
   }
 
   reflectPreference();
+  updateThemeColor();
 
   lightThemeToggle.addEventListener('click', () => onClick('light'));
   darkThemeToggle.addEventListener('click', () => onClick('dark'));
@@ -58,11 +59,13 @@ function reflectPreference() {
   document.firstElementChild.setAttribute('data-theme', theme.value);
   document.querySelector('#light-theme-toggle')?.setAttribute('aria-label', lightLabel);
   document.querySelector('#dark-theme-toggle')?.setAttribute('aria-label', darkLabel);
-  // adjust the theme color
+}
+
+function updateThemeColor() {
   document
     .querySelector('meta[name="theme-color"]')
     .setAttribute('content', theme.value === 'dark' ? themeColors.dark : themeColors.light);
 }
 
 // set early so no page flashes / CSS is made aware
-reflectPreference();
+reflectPreference();w
