@@ -5,6 +5,7 @@
   <!-- The order of elements in the head follows recommendations by Harry Roberts. learn more here: https://www.youtube.com/watch?v=MHyAOZ45vnU -->
 
   <head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cloudinary-core/2.12.3/cloudinary-core-shrinkwrap.js" integrity="sha512-KMNn99TvNv6bP4D0H1gNhpVSAf5xds74pMwodUgdMcBUkhDn4Wy0bVXPWs+R/dKJU9HKCQg/9ddC9Ji91OsL6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- 1 charset/viewport -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -46,8 +47,16 @@
     <main id="main" class="flow">{{ content | safe }}</main>
 
     {% include "partials/footer.njk" %}
-
     <script type="module" src="/assets/scripts/components/custom-easteregg.js"></script>
     <custom-easteregg></custom-easteregg>
   </body>
+  <script type="text/javascript">
+      my_breakpoints = function (width){  // width - the current width of the containing element
+        return 50 * Math.ceil(width / 50);
+      }
+      var cl = cloudinary.Cloudinary.new({cloud_name: "paulapplegate-com"}); 
+      // replace 'demo' with your cloud name in the line above 
+      cl.config({breakpoints:my_breakpoints, responsive_use_breakpoints:"resize"})
+      cl.responsive();
+  </script>
 </html>
