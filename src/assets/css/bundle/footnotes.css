@@ -24,3 +24,20 @@
 .footnote-backref:hover {
   color: var(--color-primary);
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.container svg {
+  height: 1em;
+  width: 1em;
+  vertical-align: middle;
+}
