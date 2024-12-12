@@ -81,21 +81,12 @@ export default async function (eleventyConfig) {
     eleventyConfig.on('eleventy.after', events.svgToJpeg);
   }
 
-  // --------------------- Passthrough File Copy
-
-  // -- same path
-  ['src/assets/fonts/', 'src/assets/images/template', 'src/assets/og-images'].forEach(path =>
-    eleventyConfig.addPassthroughCopy(path)
-  );
-
-  eleventyConfig.addPassthroughCopy({
-    // -- to root
-    'src/assets/images/favicon/*': '/',
-
-    // -- node_modules
-    'node_modules/lite-youtube-embed/src/lite-yt-embed.{css,js}': `assets/components/`
-  });
-
+[
+    'src/assets/fonts/',
+    'src/assets/images/template',
+    'src/files/*.asc', // All .asc files in the "files" folder
+    'src/assets/og-images'
+  ].forEach(path => eleventyConfig.addPassthroughCopy(path));
   // --------------------- Build Settings
   eleventyConfig.setDataDeepMerge(true);
 
