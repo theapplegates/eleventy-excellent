@@ -10,12 +10,13 @@
     {
       "name": "Base",
       "description": "Base font stack for body text. Inclusive Sans is a free, friendly and clean typeface made for enhanced legibility. oliviaking.com/inclusive-sans",
-      "value": ["Atkinson Hyperlegible", "Inclusive Sans", "system-ui", "sans-serif"]
+      "value": ["Geist", "Inclusive Sans", "system-ui", "sans-serif"]
     },
     {
       "name": "Mono",
       "description": "Monospace font for code and preformatted text.",
       "value": [
+        "GeistMono",
         "ui-monospace",
         "Cascadia Code",
         "Source Code Pro",
