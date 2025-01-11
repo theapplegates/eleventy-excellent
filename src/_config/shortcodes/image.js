@@ -17,9 +17,9 @@ export const imageShortcode = async (
   loading = 'lazy',
   containerClass,
   imageClass,
-  widths = [650, 960, 1200],
+  widths = [640, 750, 828, 1080, 1280, 1668, 2048, 2560, 3375],
   sizes = 'auto',
-  formats = ['avif', 'webp', 'jpeg']
+  formats = ['avif', 'webp', 'jxl', 'jpeg']
 ) => {
   // Prepend "./src" if not present
   if (!src.startsWith('./src')) {
