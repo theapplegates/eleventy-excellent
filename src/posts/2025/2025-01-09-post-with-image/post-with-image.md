@@ -8,7 +8,6 @@ alt: 'A picturesque valley showcasing majestic mountains and lush forests, creat
 credit: A photo I took.
 ---
 
-<img src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1736631987/x73zqehra7bydthztwtu.jxl" alt="A possible iPad">
 
 Using the powerful Eleventy Image plugin, we have three ways to optimize images: HTML Transform, Markdown syntax, and a Nunjucks shortcode.
 
