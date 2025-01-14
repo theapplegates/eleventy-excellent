@@ -5,7 +5,7 @@ description: "When I was ten I was on a game show. Need a good laugh? Read on."
 date: 2024-09-23
 ---
 
-<img src="./assets/images/blog/lfpxvwsaqmzfxjov8fmq.jpg" alt="The show's title">
+<img src="/assets/images/blog/lfpxvwsaqmzfxjov8fmq.jpg" alt="The show's title">
 
 I let AI write/improve my words. Here is what it wrote:
 When I was just ten years old, I found myself under the dazzling lights of a game show set. It's a memory that brings a smile to my face every time I think about it. The adventure began when my mother was auditioning for the $20,000 Pyramid. She had already breezed through three interviews and demo games, and was on the brink of being selected.
@@ -13,8 +13,6 @@ That's when the unexpected happened. The producers pulled her aside and presente
 The day of the taping, I was a bundle of nerves. But the legendary [Dick Clark](https://en.wikipedia.org/wiki/Dick_Clark) himself put us at ease, telling us to relax and just be ourselves. Under those scorching set lights, we prepared for the show, even bringing a change of clothes to "pretend" it was the next day if we won.
 
 <img src="/assets/images/blog/xm75ykzvmh8uhjuvp0mg.jpg" alt="Me and my mom">
-![hi](/assets/images/blog/xm75ykzvmh8uhjuvp0mg.jpg 'hello')
-
 
 
 The competition was fierce, and we ultimately lost, but the experience was unforgettable. Dick Clark spent time talking with us, and his warmth and encouragement made the whole experience feel like a win in itself.
