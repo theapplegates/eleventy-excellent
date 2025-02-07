@@ -37,3 +37,103 @@
     local(''),
     url('/assets/fonts/redhat/red-hat-display-v7-latin-900.woff2') format('woff2');
 }
+@font-face {
+    font-family: 'wotfardbold';
+    src: url('/assets/fonts/Wotfard-regular/wotfard-bold-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+}
+@font-face {
+    font-family: 'wotfardextralight';
+    src: url('/assets/fonts/Wotfard-regular/wotfard-extralight-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardlight';
+    src: url('/assets/fonts/Wotfard-regular/wotfard-light-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'wotfardmedium';
+    src: url('/assets/fonts/Wotfard-regular/wotfard-medium-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardregular';
+    src: url('/assets/fonts/Wotfard-regular/wotfard-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardsemibold';
+    src: url('/assets/fonts/Wotfard-regular/wotfard-semibold-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardthin';
+    src: url('/assets/fonts/Wotfard-regular/wotfard-thin-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardbold_italic';
+    src: url('/assets/fonts/Wotfard-Italic/wotfard-bolditalic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardextralight_italic';
+    src: url('/assets/fonts/Wotfard-Italic/wotfard-extralightitalic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardlight_italic';
+    src: url('/assets/fonts/Wotfard-Italic/wotfard-lightitalic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardmedium_italic';
+    src: url('/assets/fonts/Wotfard-Italic/wotfard-mediumitalic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardregular_italic';
+    src: url('/assets/fonts/Wotfard-Italic/wotfard-regularitalic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardsemibold_italic';
+    src: url('/assets/fonts/Wotfard-Italic/wotfard-semibolditalic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'wotfardthin_italic';
+    src: url('/assets/fonts/Wotfard-Italicwotfard-thinitalic-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
