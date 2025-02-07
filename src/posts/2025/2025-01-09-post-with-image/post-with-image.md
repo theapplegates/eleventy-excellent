@@ -19,6 +19,8 @@ Transforms any `<img>` or `<picture>` tags in HTML files as a post-processing st
 <img src="/assets/images/absolute-path-image.jpg" alt="alt text">
 ```
 
+<img src="/assets/images/blog/maksym-mazur-kid-tree_tvazq1.jpg" alt="Christmas Dreams">
+
 We can pass in overrides for every instance and use attributes. By default all images are set to be lazy loaded, but we can override this by directly setting `loading="eager"` and `decoding="sync" `on the `<img>` element.
 
 Another thing to note is the  `widths: ['auto']` setting, which by default only includes the original size image. You can set the dedicated `widths` to be used by adding `eleventy:widths="800,1200"` on the element. For images with [Markdown syntax](/blog/post-with-an-image/#markdown-syntax), I set fixed `widths` so we don't need to set a value on every instance.
