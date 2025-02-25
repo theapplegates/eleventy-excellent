@@ -27,3 +27,17 @@ The day of the taping I was a nervous wreak. [Dick Clark](https://en.wikipedia.o
 
 Just some fonts
 <img src="/assets/images/blog/Fonts_buy.jpg" alt="Fonts" class="shadow-medium">
+
+
+
+<div class="shadow-wrapper">
+<picture class="responsive-picture">
+  <source type="image/jxl" srcset="
+  " sizes="(min-width: 1200px) 1200px, 100vw"/>
+  <source type="image/avif" srcset="
+  " sizes="(min-width: 1200px) 1200px, 100vw"/>
+  <source type="image/jpeg" srcset="
+  " sizes="(min-width: 1200px) 1200px, 100vw"/>
+  <img src="https://res.cloudinary.com/paulapplegate-com/image/upload/v1740507207/r9wgl0kwbc8qjwmixwjf.jxl" alt="Responsive Image" loading="lazy"></img>
+</picture>
+</div>
