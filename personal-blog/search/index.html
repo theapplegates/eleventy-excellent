@@ -1,0 +1,19 @@
+---
+layout: page
+title: Search
+---
+
+<div class="search-content">
+  <p>Search through all blog posts using the search box below:</p>
+  
+  <div id="search"></div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/pagefind@latest/dist/pagefind-ui.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/pagefind@latest/dist/pagefind-ui.css" rel="stylesheet">
+  
+  <script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+      new PagefindUI({ element: "#search" });
+    });
+  </script>
+</div>

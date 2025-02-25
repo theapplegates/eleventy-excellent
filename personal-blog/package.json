@@ -1,0 +1,23 @@
+{
+  "name": "personal-blog",
+  "version": "1.0.0",
+  "description": "A personal blog built with 11ty",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy && npx pagefind --site _site",
+    "clean": "rm -rf _site"
+  },
+  "keywords": [
+    "blog",
+    "eleventy",
+    "11ty"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "pagefind": "^1.0.3"
+  }
+}
