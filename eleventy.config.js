@@ -55,7 +55,7 @@ export default async function (eleventyConfig) {
   });
 
   eleventyConfig.addPlugin(plugins.eleventyImageTransformPlugin, {
-    formats: ['webp', 'jpeg'],
+    formats: ['avif', 'jpeg'],
     widths: ['auto'],
     htmlOptions: {
       imgAttributes: {

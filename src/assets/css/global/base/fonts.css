@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'AtkinsonHyperlegible Mono';
+  font-family: 'AtkinsonHyperlegibleMonoVF-Variable';
   src: url('/assets/fonts/AtkinsonHyperlegibleMonoVF-Variable.woff2') format('woff2');
   font-weight: 100 900;
   font-style: normal;
@@ -7,9 +7,9 @@
 }
 
 @font-face {
-  font-family: 'AtkinsonHyperlegibleNextVF-Variable.woff2';
+  font-family: 'AtkinsonHyperlegibleNextVF-Variable';
   src: url('/assets/fonts/AtkinsonHyperlegibleNextVF-Variable.woff2') format('woff2');
   font-weight: 100 900;
-  font-style: italic;
+  font-style: normal;
   font-display: swap;
 }
