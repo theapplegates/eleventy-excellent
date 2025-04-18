@@ -5,18 +5,18 @@
     {
       "name": "Display",
       "description": "Display font stack for headings and large text. Redhat Display is made for headlines and big statements, are low contrast and spaced tightly, with a large x-height and open counters.",
-      "value": ["Wotfard"]
+      "value": [""]
     },
     {
       "name": "Base",
       "description": "Base font stack for body text. Atkinson Hyperlegible, named after the founder of the Braille Institute, has been developed specifically to increase legibility for readers with low vision, and to improve comprehension.",
-      "value": ["Wotfard"]
+      "value": ["AtkinsonHyperlegibleNextVF-Variable"]
     },
     {
       "name": "Mono",
       "description": "Monospace font for code and preformatted text.",
       "value": [
-        "Wotfard"
+        "AtkinsonHyperlegibleMonoVF-Variable."
       ]
     }
   ]

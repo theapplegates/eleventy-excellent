@@ -1,118 +1,15 @@
-/* Regular */
 @font-face {
-  font-family: 'Wotfard';
-  src: url((/assets/fonts/wotfard/wotfard-regular-webfont.woff2') format('woff2');
-  font-weight: 400;
+  font-family: 'AtkinsonHyperlegible Mono';
+  src: url('/assets/fonts/AtkinsonHyperlegibleMonoVF-Variable.woff2') format('woff2');
+  font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Wotfard';
-  src: url((/assets/fonts/wotfard/wotfard/wotfard-regularitalic-webfont.woff2') format('woff2');
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* Medium */
-@font-face {
-  font-family: 'Wotfard';
-  src: url((/assets/fonts/wotfard/wotfard/wotfard-medium-webfont.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Wotfard';
-  src: url((/assets/fonts/wotfard/wotfard/wotfard-mediumitalic-webfont.woff2') format('woff2');
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* SemiBold */
-@font-face {
-  font-family: 'Wotfard';
-  src: url((/assets/fonts/wotfard/wotfard/wotfard-semibold-webfont.woff2') format('woff2');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Wotfard';
-  src: url((/assets/fonts/wotfard/wotfard/wotfard-semibolditalic-webfont.woff2') format('woff2');
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* Bold */
-@font-face {
-  font-family: 'Wotfard';
-  src: url((/assets/fonts/wotfard/wotfard/wotfard-bold-webfont.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Wotfard';
-  src: url((/assets/fonts/wotfard/wotfard/wotfard-bolditalic-webfont.woff2') format('woff2');
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* Light */
-@font-face {
-  font-family: 'Wotfard';
-  src: url((/assets/fonts/wotfard/wotfard/wotfard-light-webfont.woff2') format('woff2');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Wotfard';
-  src: url((/assets/fonts/wotfard/wotfard/wotfard-lightitalic-webfont.woff2') format('woff2');
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* ExtraLight */
-@font-face {
-  font-family: 'Wotfard';
-  src: url((/assets/fonts/wotfard/wotfard/wotfard-extralight-webfont.woff2') format('woff2');
-  font-weight: 200;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Wotfard';
-  src: url((/assets/fonts/wotfard/wotfard/wotfard-extralightitalic-webfont.woff2') format('woff2');
-  font-weight: 200;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* Thin */
-@font-face {
-  font-family: 'Wotfard';
-  src: url((/assets/fonts/wotfard/wotfard/wotfard-thin-webfont.woff2') format('woff2');
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Wotfard';
-  src: url((/assets/fonts/wotfard/wotfard/wotfard-thinitalic-webfont.woff2') format('woff2');
-  font-weight: 100;
+  font-family: 'AtkinsonHyperlegibleNextVF-Variable.woff2';
+  src: url('/assets/fonts/AtkinsonHyperlegibleNextVF-Variable.woff2') format('woff2');
+  font-weight: 100 900;
   font-style: italic;
   font-display: swap;
 }
