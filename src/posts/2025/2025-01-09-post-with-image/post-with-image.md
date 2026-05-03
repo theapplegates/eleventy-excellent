@@ -7,6 +7,40 @@ image: '/assets/images/gallery/asturias-1.jpg'
 alt: 'A picturesque valley showcasing majestic mountains and lush forests, creating a serene and captivating landscape'
 credit: A photo I took.
 ---
+<picture>
+  <source type="image/jxl" srcset="
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1027/v1777834787/chatgpt_image_apr_26_2026_at_09_57_40am.jpg 50w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1027/v1777834787/chatgpt_image_apr_26_2026_at_09_57_40am.jpg 667w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1027/v1777834787/chatgpt_image_apr_26_2026_at_09_57_40am.jpg 1027w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1027/v1777834787/chatgpt_image_apr_26_2026_at_09_57_40am.jpg 1254w
+  " sizes="(max-width: 1254px) 100vw, 1254px">
+  <source type="image/avif" srcset="
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1027/v1777834787/chatgpt_image_apr_26_2026_at_09_57_40am.jpg 50w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1027/v1777834787/chatgpt_image_apr_26_2026_at_09_57_40am.jpg 667w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1027/v1777834787/chatgpt_image_apr_26_2026_at_09_57_40am.jpg 1027w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1027/v1777834787/chatgpt_image_apr_26_2026_at_09_57_40am.jpg 1254w
+  " sizes="(max-width: 1254px) 100vw, 1254px">
+  <source type="image/jpeg" srcset="
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1027/v1777834787/chatgpt_image_apr_26_2026_at_09_57_40am.jpg 50w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1027/v1777834787/chatgpt_image_apr_26_2026_at_09_57_40am.jpg 667w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1027/v1777834787/chatgpt_image_apr_26_2026_at_09_57_40am.jpg 1027w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1027/v1777834787/chatgpt_image_apr_26_2026_at_09_57_40am.jpg 1254w
+  " sizes="(max-width: 1254px) 100vw, 1254px">
+  <img
+    src="http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1254/v1777834787/chatgpt_image_apr_26_2026_at_09_57_40am.jpg"
+    srcset="
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1027/v1777834787/chatgpt_image_apr_26_2026_at_09_57_40am.jpg 50w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1027/v1777834787/chatgpt_image_apr_26_2026_at_09_57_40am.jpg 667w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1027/v1777834787/chatgpt_image_apr_26_2026_at_09_57_40am.jpg 1027w,
+    http://res.cloudinary.com/paulapplegate-com/image/upload/q_auto/c_scale,w_1027/v1777834787/chatgpt_image_apr_26_2026_at_09_57_40am.jpg 1254w
+  "
+    sizes="(max-width: 1254px) 100vw, 1254px"
+    width="1254"
+    height="1254"
+    alt="Responsive ChatGPT_Image_Apr_26_2026_at_09_57_40AM"
+    loading="lazy"
+    decoding="async">
+</picture>
 
 Using the powerful [Eleventy Image plugin](https://www.11ty.dev/docs/plugins/image/), we have three ways to optimize images: <a href="#html-transform">HTML Transform</a>, <a href="#markdown-syntax">Markdown syntax</a>, and <a href="#nunjucks-shortcodes">Nunjucks shortcodes</a>.
 
